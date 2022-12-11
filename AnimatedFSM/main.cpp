@@ -71,6 +71,10 @@ int main()
 					DEBUG_MSG("gpp::Event::Event::BACKWARDS_ATTACK_EVENT");
 					input.setCurrent(gpp::Events::Event::BACKWARDS_ATTACK_EVENT);
 				}
+				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::I)) {
+					DEBUG_MSG("gpp::Event::Event::BACKWARDS_THROW_ATTACK_EVENT");
+					input.setCurrent(gpp::Events::Event::BACKWARDS_THROW_EVENT);
+				}
 				// Running attack
 				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Z) 
 					&& 

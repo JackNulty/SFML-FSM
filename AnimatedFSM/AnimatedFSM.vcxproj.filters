@@ -117,6 +117,9 @@
     <ClInclude Include="BackwardsAttackPlayerState.h">
       <Filter>Header Files\FSM</Filter>
     </ClInclude>
+    <ClInclude Include="BackwardsThrowAttackPlayerState.h">
+      <Filter>Header Files\FSM</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp">
@@ -183,6 +186,9 @@
       <Filter>Source Files\FSM</Filter>
     </ClCompile>
     <ClCompile Include="BackwardsAttackPlayerState.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="BackwardsThrowAttackPlayerStatecpp.cpp">
       <Filter>Source Files\FSM</Filter>
     </ClCompile>
   </ItemGroup>
