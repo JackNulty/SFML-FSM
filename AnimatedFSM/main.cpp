@@ -67,10 +67,12 @@ int main()
 					DEBUG_MSG("gpp::Event::Event::UNGLIDE_EVENT");
 					input.setCurrent(gpp::Events::Event::UNGLIDE_EVENT);
 				}
+				// Backwards Attack
 				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::O)) {
 					DEBUG_MSG("gpp::Event::Event::BACKWARDS_ATTACK_EVENT");
 					input.setCurrent(gpp::Events::Event::BACKWARDS_ATTACK_EVENT);
 				}
+				// Backwards throw
 				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::I)) {
 					DEBUG_MSG("gpp::Event::Event::BACKWARDS_THROW_ATTACK_EVENT");
 					input.setCurrent(gpp::Events::Event::BACKWARDS_THROW_EVENT);
