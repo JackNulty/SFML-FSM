@@ -11,6 +11,7 @@ namespace gpp {
 		enum class Event
 		{
 			NONE,
+			UNGLIDE_EVENT,
 			MOVE_UP_START_EVENT,
 			MOVE_UP_STOP_EVENT,
 			RUN_RIGHT_START_EVENT,

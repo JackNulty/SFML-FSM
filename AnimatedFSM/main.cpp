@@ -62,6 +62,11 @@ int main()
 					DEBUG_MSG("gpp::Events::Event::REVIVED_EVENT");
 					input.setCurrent(gpp::Events::Event::REVIVED_EVENT);
 				}
+				// Unglide Event 
+				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::P)) {
+					DEBUG_MSG("gpp::Event::Event::UNGLIDE_EVENT");
+					input.setCurrent(gpp::Events::Event::UNGLIDE_EVENT);
+				}
 				// Running attack
 				else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Z) 
 					&& 

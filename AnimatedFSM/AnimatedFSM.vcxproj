@@ -143,6 +143,7 @@
     <ClInclude Include="RunRightPlayerState.h" />
     <ClInclude Include="SlidePlayerState.h" />
     <ClInclude Include="ThrowAttackPlayerState.h" />
+    <ClInclude Include="UnglidePlayerState.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimatedSprite.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="RunRightPlayerState.cpp" />
     <ClCompile Include="SlidePlayerState.cpp" />
     <ClCompile Include="ThrowAttackPlayerState.cpp" />
+    <ClCompile Include="UnglidePlayerState.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
