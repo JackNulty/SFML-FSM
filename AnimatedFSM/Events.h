@@ -11,6 +11,8 @@ namespace gpp {
 		enum class Event
 		{
 			NONE,
+			BACKWARDS_ATTACK_EVENT,
+			BACKWARDS_ATTACK_STOP_EVENT,
 			UNGLIDE_EVENT,
 			MOVE_UP_START_EVENT,
 			MOVE_UP_STOP_EVENT,

@@ -10,6 +10,7 @@
 #include <JumpPlayerState.h>
 #include <DiedPlayerState.h>
 #include <UnglidePlayerState.h>
+#include <BackwardsAttackPlayerState.h>
 
 
 PlayerState* IdlePlayerState::handleInput(gpp::Events& input) {
@@ -47,6 +48,10 @@ PlayerState* IdlePlayerState::handleInput(gpp::Events& input) {
 	else if (input.getCurrent() == gpp::Events::Event::UNGLIDE_EVENT) {
 		DEBUG_MSG("IdlePlayerState -> UnglidePlayerState");
 		return new UnglidePlayerState();
+	}
+	else if (input.getCurrent() == gpp::Events::Event::BACKWARDS_ATTACK_EVENT) {
+		DEBUG_MSG("IdlePlayerState -> BackwardsAtttackState");
+		return new BackwardsAttackPlayerState();
 	}
 	return nullptr;
 }

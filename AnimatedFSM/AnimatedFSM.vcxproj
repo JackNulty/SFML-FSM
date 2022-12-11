@@ -123,6 +123,7 @@
   <ItemGroup>
     <ClInclude Include="AnimatedSprite.h" />
     <ClInclude Include="AttackPlayerState.h" />
+    <ClInclude Include="BackwardsAttackPlayerState.h" />
     <ClInclude Include="ClimbDownPlayerState.h" />
     <ClInclude Include="AccendLadderPlayerState.h" />
     <ClInclude Include="ClimbPausePlayerState.h" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="AnimatedSprite.cpp" />
     <ClCompile Include="AttackPlayerState.cpp" />
+    <ClCompile Include="BackwardsAttackPlayerState.cpp" />
     <ClCompile Include="ClimbDownPlayerState.cpp" />
     <ClCompile Include="AccendLadderPlayerState.cpp" />
     <ClCompile Include="ClimbPausePlayerState.cpp" />
